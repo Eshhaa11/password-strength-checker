@@ -16,6 +16,7 @@ function Password () {
        switch (score) {
           case 5:
             setStrength("Quite Strong")
+            break;
        } 
 
 

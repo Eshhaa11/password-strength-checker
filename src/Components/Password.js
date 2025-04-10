@@ -13,7 +13,9 @@ function Password () {
         if (/[0-9]/.test(pass)) score++;
         if (/[^A-Za-z0-9]/.test(pass)) score++;
 
+       switch (score) {
         
+       } 
 
 
     return (

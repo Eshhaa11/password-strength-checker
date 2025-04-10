@@ -38,9 +38,8 @@ function Password () {
         checkStrength(value);
     };
 
-
     return (
-        <div>
+        <div className="pass-cont">
             <h1>Password Strength Checker</h1>
         </div>
     )

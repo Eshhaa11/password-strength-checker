@@ -7,6 +7,7 @@ function Password () {
 
     const checkStrength = (pass) => {
         let score = 0;
+        if (pass.length >=8 ) score++;
 
     return (
         <div>

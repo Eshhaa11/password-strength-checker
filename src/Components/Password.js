@@ -41,6 +41,8 @@ function Password () {
     return (
         <div className="pass-cont">
             <h1>Password Strength Checker</h1>
+        <input
+        
         </div>
     )
 }

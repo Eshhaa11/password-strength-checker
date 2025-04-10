@@ -17,6 +17,7 @@ function Password () {
           case 5:
             setStrength("Quite Strong")
             break;
+          case 4:
        } 
 
 

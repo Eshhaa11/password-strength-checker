@@ -6,6 +6,7 @@ function Password () {
     const [strength, setStrength] = useState("")
 
     const checkStrength = (pass) => {
+        let score = 0;
 
     return (
         <div>

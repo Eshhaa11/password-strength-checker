@@ -21,7 +21,7 @@ function Password() {
         setStrength("Strong");
         break;
       case 3:
-        setStrength("Almost becoming");
+        setStrength("Almost becoming strong");
         break;
       case 2:
         setStrength("Kinda Weak still");

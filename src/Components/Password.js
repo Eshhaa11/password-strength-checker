@@ -14,7 +14,8 @@ function Password () {
         if (/[^A-Za-z0-9]/.test(pass)) score++;
 
        switch (score) {
-        
+          case 5:
+            setStrength("Quite Strong")
        } 
 
 

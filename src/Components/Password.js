@@ -43,6 +43,7 @@ function Password () {
             <h1>Password Strength Checker</h1>
         <input
          type="password"
+         value={password}
         </div>
     )
 }

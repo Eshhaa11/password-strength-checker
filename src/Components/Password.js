@@ -3,6 +3,7 @@ import './Password.css'
 
 function Password () {
     const [password, setPassword] = useState("")
+    const [strength, setStrength] = useState("")
 
     return (
         <div>

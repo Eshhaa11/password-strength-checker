@@ -9,6 +9,7 @@ function Password () {
         let score = 0;
         if (pass.length >=8 ) score++;
         if (/[A-Z]/.test(pass)) score++;
+        if (/[a-z]/.test(pass)) score++;
 
     return (
         <div>

@@ -19,7 +19,9 @@ function Password () {
             break;
           case 4:
             setStrength('Strong');
-            
+            break;
+          case 3:
+
        } 
 
 

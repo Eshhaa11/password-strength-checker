@@ -44,6 +44,7 @@ function Password () {
         <input
          type="password"
          value={password}
+         onChange={handleChange}
         </div>
     )
 }

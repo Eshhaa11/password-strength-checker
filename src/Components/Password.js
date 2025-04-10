@@ -29,10 +29,8 @@ function Password () {
           default:
             setStrength("Weak")
             break;
-
-
-
        } 
+    };
 
 
     return (

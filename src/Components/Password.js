@@ -18,13 +18,14 @@ function Password () {
             setStrength("Quite Strong")
             break;
           case 4:
-            setStrength('Strong');
+            setStrength("Strong");
             break;
           case 3:
-            setStrength('Kinda weak still');
+            setStrength("Kinda weak still");
             break;
           case 2:
-            
+            setStrength("Weak")
+
 
        } 
 

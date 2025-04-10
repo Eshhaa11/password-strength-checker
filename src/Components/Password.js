@@ -15,19 +15,20 @@ function Password () {
 
        switch (score) {
           case 5:
-            setStrength("Quite Strong")
+            setStrength("Yesss...Quite Strong")
             break;
           case 4:
             setStrength("Strong");
             break;
           case 3:
-            setStrength("Kinda weak still");
+            setStrength("Almost becoming");
             break;
           case 2:
-            setStrength("Weak")
+            setStrength("Kinda Weak still")
             break;
           default:
-            
+            setStrength("Weak")
+
 
 
        } 

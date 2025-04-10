@@ -46,7 +46,7 @@ function Password () {
          value={password}
          onChange={handleChange}
          placeholder="Enter your password"
-
+        />
         </div>
     )
 }

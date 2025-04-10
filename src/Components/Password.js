@@ -36,6 +36,7 @@ function Password () {
         const value = e.target.value;
         setPassword(value);
         checkStrength(value);
+    };
 
 
     return (

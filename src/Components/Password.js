@@ -11,7 +11,10 @@ function Password () {
         if (/[A-Z]/.test(pass)) score++;
         if (/[a-z]/.test(pass)) score++;
         if (/[0-9]/.test(pass)) score++;
+        if (/[^A-Za-z0-9]/.test(pass)) score++;
+
         
+
 
     return (
         <div>

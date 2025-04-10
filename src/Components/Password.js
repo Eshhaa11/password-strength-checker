@@ -32,6 +32,8 @@ function Password () {
        } 
     };
 
+    const handleChange = (e) => {
+
 
     return (
         <div>

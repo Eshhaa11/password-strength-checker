@@ -22,6 +22,7 @@ function Password () {
             break;
           case 3:
             setStrength('Kinda weak still');
+            break;
 
        } 
 

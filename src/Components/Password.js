@@ -47,9 +47,9 @@ function Password () {
          onChange={handleChange}
          placeholder="Enter your password"
         />
-         <p className={`strength ${strength.replace(/\s/g, '').toLowerCase()}`}></p>
+         <p className={`strength ${strength.replace(/\s/g, '').toLowerCase()}`}>
          Strength: {strength}
-
+         </p>
         </div>
     )
 }

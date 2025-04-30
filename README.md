@@ -1,3 +1,5 @@
+![App Screenshot](src/assets/password.jpg)
+
 # 🔐 Password Strength Checker
 
 A simple **React** application that checks how strong your password is and gives real-time feedback based on various criteria.
